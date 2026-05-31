@@ -1,5 +1,88 @@
 # StudentPortal
 
+# Student Portal — Angular 18
+
+A simple web app I built to manage student records. You can add, view, edit, 
+and delete students, and the data stays saved even after you close the app.
+
+---
+
+## What it does
+
+- Add new students with their details
+- View all students in a table
+- Edit any student's information
+- Delete students you no longer need
+- Data is saved to a local JSON file so nothing is lost when you restart
+
+---
+
+## Built with
+
+- Angular 18
+- Bootstrap 5
+- json-server (for saving data)
+- TypeScript
+
+---
+
+## How to run it
+
+You will need Node.js installed on your machine. If you don't have it, 
+download it from nodejs.org first.
+
+**Step 1 — Clone the project**
+```bash
+git clone https://github.com/RaiTahidkharl/Angular-18-Student-Portal-CRUD.git
+cd Angular-18-Student-Portal-CRUD
+```
+
+**Step 2 — Install everything**
+```bash
+npm install
+```
+
+**Step 3 — Open two terminals and run both of these**
+
+Terminal 1 (this saves your data):
+```bash
+npx json-server --watch db.json --port 3000
+```
+
+Terminal 2 (this runs the app):
+```bash
+ng serve
+```
+
+**Step 4 — Open your browser and go to**
+
+http://localhost:4200
+
+That's it. The app should be running.
+
+---
+
+## How to check data is actually saving
+
+Once the app is running, open your browser and go to:
+
+
+http://localhost:3000/students
+
+
+You will see your student data there in JSON format. If you add a student 
+in the app, it will show up here too. Close everything, reopen it, and 
+the data will still be there.
+
+---
+
+## Author
+
+Built by Rai Tahid Kharl  
+GitHub: github.com/RaiTahidkharl
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
 ## Development server
