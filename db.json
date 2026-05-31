@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "name": "Rai ",
+      "mobile": "654656545454",
+      "email": "rai@gmail.com",
+      "gender": "male",
+      "doj": "2026-05-13",
+      "address": "fgsdsfvsdsfds",
+      "status": false,
+      "id": "Dk0wEirKjYM"
+    },
+    {
+      "name": "ALI",
+      "mobile": "654656545454",
+      "email": "rai@gmail.com",
+      "gender": "male",
+      "doj": "2026-05-13",
+      "address": "fgsdsfvsdsfds",
+      "status": false,
+      "id": "wRJFMrR0Avw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
